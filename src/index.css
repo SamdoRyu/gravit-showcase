@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-padding-top: 4.5rem;
+}
+
+body {
+  @apply bg-space-950 font-sans text-ink antialiased;
+}
+
+dialog::backdrop {
+  background: rgb(3 5 12 / 0.85);
+}
+
+:focus-visible {
+  @apply outline outline-2 outline-offset-2 outline-glow;
+}
