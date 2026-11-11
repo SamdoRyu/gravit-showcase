@@ -11,6 +11,7 @@ export const links = {
   perfPr: `${REPO}/pull/310`,
   perfIssue: `${REPO}/issues/309`,
   e2e: `${REPO}/tree/main/frontend/tests/e2e`,
+  perfNotes: 'https://claude.ai/artifact/5Dp55feXPcziWx4GHvZwa8?sk=MwZFC0yKy1pLY4PpRqv0tA',
 }
 
 export const mainCommit = '66a9db4'

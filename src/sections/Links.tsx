@@ -8,6 +8,7 @@ const items = [
   { href: links.rehearsalRepo, title: '리허설 저장소', body: 'GRAVIT 연동 리허설용 시연 레포(스터디 게시판 예제)' },
   { href: links.actions, title: 'GitHub Actions CI', body: 'lint · 계약 테스트 · 빌드 · 백엔드 테스트 실행 기록' },
   { href: links.perfPr, title: '성능 개선 PR #310', body: 'Snapshot auto-flush 최적화 · SyncState 동시 생성 오류 수정' },
+  { href: links.perfNotes, title: 'GRAVIT 성능 개선 학습 노트', body: '다섯 사례로 정리한 성능 개선 과정 — 커넥션 풀 · dirty checking · OSIV · 동시 INSERT · 회귀 검증' },
 ]
 
 export function Links() {
