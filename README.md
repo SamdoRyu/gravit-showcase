@@ -43,7 +43,7 @@ src/components/        Modal(<dialog>) · Lightbox · TextPreview(fetch 미리�
 | 배지 | 뜻 |
 | --- | --- |
 | Mock | 서버 없이 브라우저 seed 데이터로 실행한 화면, GRAVIT main `7b60c21`(2026-11-10) 기준 |
-| Server | Spring API 서버 + 시연 사무실 seed 데이터(실제 GitHub 레포 아님), 2026-11-10 최신 main 시점 촬영 |
+| Server | Spring API 서버 + 시연 사무실 seed 데이터(실제 GitHub 레포 아님), 2026-11-10 촬영 |
 
 실제 GitHub 레포를 동기화한 화면 캡처는 아직 없다.
 
@@ -68,14 +68,14 @@ src/components/        Modal(<dialog>) · Lightbox · TextPreview(fetch 미리�
 | QA 보안 기록(`qa/security.md`) | 측정 중 보안 사고 조사 기록 |
 | `qa/results/raw/` · `qa/datasets/out/` · `.jfr` | 원시 측정 로그 — 비밀 정보 포함 가능 |
 | `.env` · `secrets/` · 키 파일 | 인증 정보 |
-| `notion-screen-design/screenshots/19-retro-report.png` · `20-tech-decision-card.png` | #335 · #336 회고 개편 이전 화면 |
+| `notion-screen-design/screenshots/19-retro-report.png` · `20-tech-decision-card.png` | #335 · #336 · #343 회고 리포트 개편 이전 화면 |
 | `flow-agenda-to-card/*` | 개편 이전(「확인함」 단계 포함) mock 흐름 |
 | `notion-visuals/` · `문서-사진/` | 11-07 구버전 캡처 · 시스템/DB 설계 페이지 몫 |
 | 나머지 화면 설계 캡처 | 노션 「화면 설계」와 중복 |
 
 ## 다시 찍을 자료
 
-- **회고 리포트** — 최신 main(#335 · #336 이후) 화면. 지금은 기능 설명만 있고 이미지는 없다.
+- **회고 리포트** — 최신 main(#335 · #336 · #343 이후) 화면. 지금은 기능 설명만 있고 이미지는 없다.
 - **실제 GitHub 연동 화면** — 리허설 레포(`SamdoRyu/gravit-rehearsal-1`)를 동기화한 사무실.
 - **최종 시연 영상** — 전체 흐름 2~3분.
 - **E2E 실행 보고서** — 지금은 공개할 실행 결과가 없어 사이트에서 통과를 주장하지 않는다.

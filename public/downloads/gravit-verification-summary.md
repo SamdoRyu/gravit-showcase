@@ -1,7 +1,7 @@
 # GRAVIT 테스트 · 검증 요약
 
 > 공개용 요약본이다. GitHub에서 확인할 수 있는 기록과 팀 내부 QA 보고서(2026-11-10)의 결과만 옮겼다.
-> 확인 기준: GRAVIT `main` `66a9db4` (2026-11-10).
+> 확인 기준: GRAVIT `main` `6f73386` (2026-11-11).
 
 ## 1. CI — GitHub Actions
 
@@ -12,9 +12,9 @@
 | frontend (lint · contract · build) | `npm ci` → `npm run lint`(oxlint) → `npm run test:contract`(계약 예시 JSON 기준 테스트) → `npm run build` |
 | backend (test · bootJar) | MySQL 서비스 컨테이너를 띄우고 `./gradlew test bootJar` — 단위 · 통합 테스트 전체 |
 
-- 최신 `main` `66a9db4`의 CI 실행: 두 작업 모두 성공 — [run 42792311651](https://github.com/SamdoRyu/GRAVIT/actions/runs/42792311651)
-- 2026-11-03 ~ 11-10 전체 CI 실행 기록: 성공 358 · 실패 4 · 취소 67(워크플로가 `cancel-in-progress`라 같은 브랜치에 새 실행이 오면 이전 실행이 취소된다)
-- 저장소 기록: Pull Request 200개 병합(그중 198개가 GitHub 리뷰 승인 상태), Issue 141개 종료 · 열린 Issue 0
+- 최신 `main` `6f73386`의 CI 실행: 두 작업 모두 성공 — [run 42940706440](https://github.com/SamdoRyu/GRAVIT/actions/runs/42940706440)
+- 2026-11-03 ~ 11-11 전체 CI 실행 기록: 성공 363 · 실패 4 · 취소 67(워크플로가 `cancel-in-progress`라 같은 브랜치에 새 실행이 오면 이전 실행이 취소된다)
+- 저장소 기록: Pull Request 201개 병합(그중 199개가 GitHub 리뷰 승인 상태), Issue 142개 종료 · 열린 Issue 0
 
 **CI 성공이 뜻하는 범위**: 린트 · 프론트 계약 테스트 · 프론트 빌드 · 백엔드 테스트와 jar 빌드다. **화면 E2E 테스트와 실제 브라우저 동작은 CI에 들어 있지 않다.**
 

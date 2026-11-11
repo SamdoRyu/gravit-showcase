@@ -10,7 +10,7 @@ export const MODE_LABEL: Record<Mode, { short: string; detail: string }> = {
   },
   server: {
     short: 'Server',
-    detail: 'Spring API 서버 + 시연 사무실 seed 데이터(실제 GitHub 레포 아님) · 2026-11-10 최신 main 시점 촬영',
+    detail: 'Spring API 서버 + 시연 사무실 seed 데이터(실제 GitHub 레포 아님) · 2026-11-10 촬영',
   },
 }
 
@@ -186,7 +186,7 @@ export const features: Feature[] = [
     title: '회고 리포트',
     summary: '학습 타임라인과 회고 리포트(제목 · 느낀 점 · 기술 결정 카드 고르기)로 프로젝트에서 배운 것을 정리한다. 개인 기록은 본인과 지정된 강사만 본다.',
     shots: [],
-    note: '최신 main(#335 · #336 회고 개편 이후) 화면을 다시 촬영할 예정이다. 기존 캡처는 개편 전 화면이라 싣지 않았다.',
+    note: '최신 main(#335 · #336 · #343 회고 리포트 개편 이후) 화면을 다시 촬영할 예정이다. 기존 캡처는 개편 전 화면이라 싣지 않았다.',
   },
 ]
 

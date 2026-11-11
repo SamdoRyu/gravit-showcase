@@ -7,20 +7,20 @@ export const links = {
   docsRepo: 'https://github.com/SamdoRyu/docs-for-PJ-review',
   rehearsalRepo: 'https://github.com/SamdoRyu/gravit-rehearsal-1',
   actions: `${REPO}/actions/workflows/ci.yml`,
-  latestMainRun: `${REPO}/actions/runs/42792311651`,
+  latestMainRun: `${REPO}/actions/runs/42940706440`,
   perfPr: `${REPO}/pull/310`,
   perfIssue: `${REPO}/issues/309`,
   e2e: `${REPO}/tree/main/frontend/tests/e2e`,
   perfNotes: 'https://claude.ai/artifact/5Dp55feXPcziWx4GHvZwa8?sk=MwZFC0yKy1pLY4PpRqv0tA',
 }
 
-export const mainCommit = '66a9db4'
+export const mainCommit = '6f73386'
 
 export const collab = [
-  { value: '200', label: '병합된 PR', note: '198개 리뷰 승인' },
-  { value: '141', label: '종료된 Issue', note: '열린 Issue 0' },
-  { value: '358', label: '성공한 CI 실행', note: '실패 4 · 취소 67' },
-  { value: '4명', label: '팀원', note: '2026-11-03 ~ 11-10' },
+  { value: '201', label: '병합된 PR', note: '199개 리뷰 승인' },
+  { value: '142', label: '종료된 Issue', note: '열린 Issue 0' },
+  { value: '363', label: '성공한 CI 실행', note: '실패 4 · 취소 67' },
+  { value: '4명', label: '팀원', note: '2026-11-03 ~ 11-11' },
 ]
 
 const testUrl = (p: string) => `${REPO}/blob/main/backend/src/test/java/com/samdoryu/backend/${p}.java`
